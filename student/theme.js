@@ -1,31 +1,22 @@
+
 /* ============================================================================
    theme.js  —  COLORS
-   ============================================================================
-
-   ===== HOLE 7 of 7 — Make it look like yours ==============================
-   Change at least four colors. Any CSS color works:
-     "#3a7bd5"          a hex code (search "color picker" to find one)
-     "tomato"           one of about 140 named colors
-     "rgb(40, 90, 200)" red, green, blue from 0 to 255
-
-   Contrast matters. If you can't see the player against the sky, nobody can.
-   Assignment: Part 2, Hole 7.
-   ========================================================================= */
+   ============================================================================ */
 
 const THEME = {
-  skyTop:       "#1b2a4a",   // sky at the top of the screen
-  skyBottom:    "#3f5d8a",   // sky at the horizon
-  hillsFar:     "#2c4470",   // the distant hills
-  hillsNear:    "#26395e",   // the closer hills
+  skyTop:       "#211638",   // dark purple sky
+  skyBottom:    "#70558f",   // lavender horizon
+  hillsFar:     "#49365f",   // distant purple hills
+  hillsNear:    "#352748",   // closer dark purple hills
 
-  solid:        "#5b4a3a",   // solid blocks
-  solidTop:     "#7fbf5a",   // the grassy top edge of solid blocks
-  ledge:        "#a7865d",   // ledges you can jump through
-  spikes:       "#d9d9e0",   // spikes
+  solid:        "#65516f",   // purple blocks
+  solidTop:     "#a8d5a2",   // soft green grassy tops
+  ledge:        "#c09acb",   // lavender ledges
+  spikes:       "#ff8fa3",   // pink spikes
 
-  player:       "#f2f2f2",   // the player
-  playerEyes:   "#1b2a4a",   // the player's eyes
+  player:       "#fff4d6",   // cream-colored player
+  playerEyes:   "#211638",   // dark purple eyes
 
-  goal:         "#ffd34d",   // the goal flag
-  text:         "#ffffff",   // score and messages
+  goal:         "#ffe066",   // bright yellow goal
+  text:         "#ffffff",   // white score and messages
 };
